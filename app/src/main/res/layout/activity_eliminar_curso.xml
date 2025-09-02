@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvNombreCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre del curso"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvDescripcionCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripción" />
+
+    <TextView
+        android:id="@+id/tvCreditosCurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Créditos" />
+
+    <Button
+        android:id="@+id/btnEliminarCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar" />
+
+    <Button
+        android:id="@+id/btnCancelarEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar" />
+
+</LinearLayout>
